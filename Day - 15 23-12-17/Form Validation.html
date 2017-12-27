@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form validation</title>
+</head>
+<body>
+    <form action="" method="post" id="myForm">
+        <table>
+            <tr>
+                <th>First Name</th>
+                <td>
+                    <input type="text" name="first_name" id="firstName"/>
+                    <span id="firstNameError" style="color:red;"></span>
+                </td>
+            </tr>
+            <tr>
+                <th>Last Name</th>
+                <td>
+                    <input type="text" name="last_name" id="lastName" />
+                    <span id="lastNameError" style="color: red;"></span>
+                </td>
+            </tr>
+            <tr>
+                <th>Email Address</th>
+                <td>
+                    <input type="email" name="email" id="emailAddress" />
+                    <span id="emailError" style="color: red;"></span>
+                </td>
+            </tr>
+            <tr>
+                <th>Password</th>
+                <td>
+                    <input type="password" name="password" id="password"/>
+                    <input type="checkbox" id="checkbox"/> Show Password
+                    <span id="passwordError" style="color: red;"></span>
+                </td>
+            </tr>
+            <tr>
+                <th>Confirm Password</th>
+                <td>
+                    <input type="password" name="confirm_password" id="confirmPassword" />
+                    <span id="confirmPasswordError" style="color: red;"></span>
+                </td>
+            </tr>
+            <tr>
+                <th>Gender</th>
+                <td>
+                    <label><input type="radio" name="gender" value="male"/>Male</label>
+                    <label><input type="radio" name="gender" value="female"/>Female</label>
+                    <span id="genderError" style="color: red;"></span>
+                </td>
+            </tr>
+            <tr>
+                <th>District</th>
+                <td>
+                    <select name="district_name" id="district">
+                        <option value=" ">--Select District Name--</option>
+                        <option value="Dhaka">Dhaka </option>
+                        <option value="Jessore">Jessore </option>
+                        <option value="Khulna">Khulna </option>
+                        <option value="Dohar">Dohar </option>
+                    </select>
+                    <span id="districtError" style="color: red;"></span>
+                </td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td>
+                    <input type="submit" name="btn" value="Submit" id="mysubmit" />
+                </td>
+            </tr>
+        </table>
+    </form>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

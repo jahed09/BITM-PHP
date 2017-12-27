@@ -1,0 +1,91 @@
+
+@media (max-width: 992px) {
+    .card-deck {
+        -ms-flex-flow: row wrap !important;
+        flex-flow: row wrap !important;
+        margin-right: -15px !important;
+        margin-left: -15px !important;
+    }
+    .card-deck .card {
+        display: -ms-flexbox !important;
+        display: flex !important;
+        -ms-flex: 1 0 0% !important;
+        flex: 1 0 0% !important;
+        -ms-flex-direction: column !important;
+        flex-direction: column !important;
+        margin-right: 15px !important;
+        margin-bottom: 0 !important;
+        margin-left: 15px !important;
+    }
+}
+
+
+
+
+
+@media (max-width: 992px) {
+    .card-group {
+        -ms-flex-flow: row wrap !important;
+        flex-flow: row wrap !important;
+    }
+    .card-group .card {
+        -ms-flex: 1 0 0% !important;
+        flex: 1 0 0% !important;
+        margin-bottom: 0 !important;
+    }
+    .card-group .card + .card {
+        margin-left: 0 !important;
+        border-left: 0 !important;
+    }
+    .card-group .card:first-child {
+        border-top-right-radius: 0 !important;
+        border-bottom-right-radius: 0 !important;
+    }
+    .card-group .card:first-child .card-img-top {
+        border-top-right-radius: 0 !important;
+    }
+    .card-group .card:first-child .card-img-bottom {
+        border-bottom-right-radius: 0 !important;
+    }
+    .card-group .card:last-child {
+        border-top-left-radius: 0 !important;
+        border-bottom-left-radius: 0 !important;
+    }
+    .card-group .card:last-child .card-img-top {
+        border-top-left-radius: 0 !important;
+    }
+    .card-group .card:last-child .card-img-bottom {
+        border-bottom-left-radius: 0 !important;
+    }
+    .card-group .card:only-child {
+        border-radius: 0.25rem !important;
+    }
+    .card-group .card:only-child .card-img-top {
+        border-top-left-radius: 0.25rem !important;
+        border-top-right-radius: 0.25rem !important;
+    }
+    .card-group .card:only-child .card-img-bottom {
+        border-bottom-right-radius: 0.25rem !important;
+        border-bottom-left-radius: 0.25rem !important;
+    }
+    .card-group .card:not(:first-child):not(:last-child):not(:only-child) {
+        border-radius: 0 !important;
+    }
+    .card-group .card:not(:first-child):not(:last-child):not(:only-child) .card-img-top,
+    .card-group .card:not(:first-child):not(:last-child):not(:only-child) .card-img-bottom {
+        border-radius: 0 !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .card-columns {
+        -webkit-column-count: 3 !important;
+        column-count: 3 !important;
+        -webkit-column-gap: 1.25rem !important;
+        column-gap: 1.25rem !important;
+    }
+    .card-columns .card {
+        display: inline-block !important;
+        width: 100% !important;
+    }
+}

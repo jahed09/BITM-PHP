@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.wapper{height: auto;
+    width: 80%;
+    margin: 0 auto;}
+
+.section-1{
+    background-color: grey;
+    color: #fff;
+}
+.section-2{
+    background: url("../img/slider2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+@media screen and (max-width: 550px) {
+    .demo{
+        background-color: red
+    }
+    [class*='col-'] {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 600px) {
+    .demo{
+        background-color: red;
+    }
+}
+
+@media screen and (min-width: 780px) and (max-width: 820px) {
+    .demo{
+        background-color: red;
+    }
+}
