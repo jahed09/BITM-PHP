@@ -4,8 +4,8 @@
 
 
     $id = $_GET['id'];
-$queryResult = Student::getStudentInfoById($id);
-$student = mysqli_fetch_assoc($queryResult);
+    $queryResult = Student::getStudentInfoById($id);
+    $student = mysqli_fetch_assoc($queryResult);
 
     echo "<pre>";
     print_r($student);
