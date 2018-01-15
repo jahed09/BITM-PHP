@@ -2,19 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="708a7c28-3077-4775-b21f-6b7bbb11d257" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day - 23 13-01-18/blog/admin/add-blog.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day - 23 13-01-18/blog/admin/add-category.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day - 23 13-01-18/blog/admin/includes/footer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day - 23 13-01-18/blog/admin/includes/header.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day - 23 13-01-18/blog/admin/manage-blog.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day - 23 13-01-18/blog/admin/manage-category.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day - 23 13-01-18/session.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day - 24 15-01-18/blog/admin/add-blog.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day - 24 15-01-18/blog/admin/edit-category.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day - 24 15-01-18/blog/app/classes/Blog.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day - 24 15-01-18/blog/app/classes/Category.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Day - 22 10-1-18/app/classes/Product.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Day - 22 10-1-18/blog/admin/dashboard.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Day - 22 10-1-18/blog/admin/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Day - 22 10-1-18/blog/app/classes/Database.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Day - 22 10-1-18/blog/app/classes/Login.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Day - 22 10-1-18/blog/assets/css/bootstrap-grid.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Day - 22 10-1-18/blog/assets/css/bootstrap-grid.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Day - 22 10-1-18/blog/assets/css/bootstrap-reboot.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Day - 22 10-1-18/blog/assets/css/bootstrap-reboot.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Day - 22 10-1-18/blog/assets/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Day - 22 10-1-18/blog/assets/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Day - 22 10-1-18/blog/assets/css/heroic-features.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Day - 22 10-1-18/blog/assets/js/bootstrap.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Day - 22 10-1-18/blog/assets/js/bootstrap.bundle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Day - 22 10-1-18/blog/assets/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Day - 22 10-1-18/blog/assets/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Day - 22 10-1-18/blog/assets/js/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Day - 22 10-1-18/blog/assets/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Day - 22 10-1-18/blog/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Day - 22 10-1-18/blog/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Day - 22 10-1-18/blog/vendor/autoload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Day - 22 10-1-18/blog/vendor/composer/ClassLoader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Day - 22 10-1-18/blog/vendor/composer/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Day - 22 10-1-18/blog/vendor/composer/autoload_classmap.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Day - 22 10-1-18/blog/vendor/composer/autoload_namespaces.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Day - 22 10-1-18/blog/vendor/composer/autoload_psr4.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Day - 22 10-1-18/blog/vendor/composer/autoload_real.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Day - 22 10-1-18/blog/vendor/composer/autoload_static.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Day - 22 10-1-18/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Day - 22 10-1-18/edit-product.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Day - 22 10-1-18/input_product.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Day - 22 10-1-18/vendor/autoload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Day - 22 10-1-18/vendor/composer/ClassLoader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Day - 22 10-1-18/vendor/composer/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Day - 22 10-1-18/vendor/composer/autoload_classmap.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Day - 22 10-1-18/vendor/composer/autoload_namespaces.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Day - 22 10-1-18/vendor/composer/autoload_psr4.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Day - 22 10-1-18/vendor/composer/autoload_real.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Day - 22 10-1-18/vendor/composer/autoload_static.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Day - 22 10-1-18/view-product.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day - 10 09-12-17/Day-10" afterPath="$PROJECT_DIR$/Day - 10 09-12-17/Day-10" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day - 4 22-11-17/HTML-Portfolio" afterPath="$PROJECT_DIR$/Day - 4 22-11-17/HTML-Portfolio" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day - 4 22-11-17/day-4" afterPath="$PROJECT_DIR$/Day - 4 22-11-17/day-4" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day - 9 06-12-17/Day-9" afterPath="$PROJECT_DIR$/Day - 9 06-12-17/Day-9" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day - 21 08-01-18/edit-student.php" afterPath="$PROJECT_DIR$/Day - 21 08-01-18/edit-student.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,113 +65,56 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="dashboard.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day - 23 13-01-18/blog/admin/dashboard.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="20" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day - 23 13-01-18/blog/admin/includes/footer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add-category.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day - 23 13-01-18/blog/admin/add-category.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="24" column="71" lean-forward="false" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day - 23 13-01-18/blog/admin/includes/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="54" column="55" lean-forward="true" selection-start-line="54" selection-start-column="55" selection-end-line="54" selection-end-column="67" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add-blog.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day - 23 13-01-18/blog/admin/add-blog.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="11" column="77" lean-forward="false" selection-start-line="11" selection-start-column="77" selection-end-line="11" selection-end-column="77" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="manage-blog.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day - 23 13-01-18/blog/admin/manage-blog.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="16" column="48" lean-forward="false" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="manage-category.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day - 23 13-01-18/blog/admin/manage-category.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="11" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Login.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day - 23 13-01-18/blog/app/classes/Login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="33" column="29" lean-forward="false" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
-              <folding>
-                <marker date="1515852394816" expanded="true" signature="208:277" ph="SELECT * FRO... users" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="session.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day - 23 13-01-18/session.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day - 23 13-01-18/blog/admin/index.php">
+      <file leaf-file-name="add-category.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day - 24 15-01-18/blog/admin/add-category.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="54" column="14" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="54" selection-end-column="14" />
+              <caret line="30" column="63" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="73" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Category.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day - 24 15-01-18/blog/app/classes/Category.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="15" selection-end-column="9" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1516029396804" expanded="true" signature="129:218" ph="INSERT INTO categories... " />
+                <marker date="1516029396804" expanded="true" signature="129:242" ph="INSERT INTO categories... " />
+                <marker date="1516029396804" expanded="true" signature="129:300" ph="INSERT INTO categories... " />
+                <marker date="1516029396804" expanded="true" signature="625:649" ph="SELECT * FRO... categories" />
+                <marker date="1516029396804" expanded="true" signature="1006:1042" ph="SELECT * FRO... categories" />
+                <marker date="1516029396804" expanded="true" signature="1006:1043" ph="SELECT * FRO... categories" />
+                <marker date="1516029396804" expanded="true" signature="1367:1542" ph="UPDATE categ... " />
+                <marker date="1516029396804" expanded="true" signature="1367:1552" ph="UPDATE categ... " />
+                <marker date="1516029396804" expanded="true" signature="1840:1879" ph="DELETE FROM " />
+                <marker date="1516029396804" expanded="true" signature="2128:2181" ph="SELECT * FRO... categories" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add-blog.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day - 24 15-01-18/blog/admin/add-blog.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+              <folding>
+                <element signature="e#45#70#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Blog.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day - 24 15-01-18/blog/app/classes/Blog.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <marker date="1516030590992" expanded="true" signature="125:363" ph="INSERT INTO blogs... " />
               </folding>
             </state>
           </provider>
@@ -170,6 +149,14 @@
         <option value="$PROJECT_DIR$/Day - 23 13-01-18/blog/admin/manage-blog.php" />
         <option value="$PROJECT_DIR$/Day - 23 13-01-18/blog/admin/add-blog.php" />
         <option value="$PROJECT_DIR$/Day - 23 13-01-18/blog/admin/add-category.php" />
+        <option value="$PROJECT_DIR$/Day - 24 15-01-18/blog/admin/includes/header.php" />
+        <option value="$PROJECT_DIR$/Day - 24 15-01-18/blog/admin/add-category.php" />
+        <option value="$PROJECT_DIR$/Day - 24 15-01-18/blog/admin/edit-category.php" />
+        <option value="$PROJECT_DIR$/Day - 21 08-01-18/view-student.php" />
+        <option value="$PROJECT_DIR$/Day - 24 15-01-18/blog/admin/manage-category.php" />
+        <option value="$PROJECT_DIR$/Day - 24 15-01-18/blog/app/classes/Category.php" />
+        <option value="$PROJECT_DIR$/Day - 24 15-01-18/blog/app/classes/Blog.php" />
+        <option value="$PROJECT_DIR$/Day - 24 15-01-18/blog/admin/add-blog.php" />
       </list>
     </option>
   </component>
@@ -204,6 +191,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -227,7 +215,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Day - 23 13-01-18" />
+              <option name="myItemId" value="day-24" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -241,7 +229,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Day - 23 13-01-18" />
+              <option name="myItemId" value="day-24" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -259,29 +247,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Day - 23 13-01-18" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BITM-PHP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BITM-PHP" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Day - 23 13-01-18" />
+              <option name="myItemId" value="day-24" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -292,14 +258,89 @@
               <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="includes" />
+              <option name="myItemId" value="BITM-PHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BITM-PHP" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Day - 24 15-01-18" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BITM-PHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BITM-PHP" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Day - 24 15-01-18" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BITM-PHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BITM-PHP" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Day - 24 15-01-18" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BITM-PHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BITM-PHP" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Day - 24 15-01-18" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -309,11 +350,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../sofiq-71" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Jahed Hassan\BITM-PHP\Day - 24 15-01-18\blog\admin" />
+      <recent name="C:\xampp\htdocs\Jahed Hassan\BITM-PHP\Day 20 06-01-18" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\Jahed Hassan\BITM-PHP\Day - 23 13-01-18\blog\admin" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\Jahed Hassan\BITM-PHP\Day 20 06-01-18" />
     </key>
   </component>
   <component name="RunManager">
@@ -389,17 +431,19 @@
       <workItem from="1515294672926" duration="80000" />
       <workItem from="1515294850106" duration="22000" />
       <workItem from="1515844334747" duration="10569000" />
+      <workItem from="1515899512633" duration="60000" />
+      <workItem from="1516018520633" duration="9452000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16774000" />
+    <option name="totallyTimeSpent" value="26286000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2647504" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2700454" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -425,31 +469,22 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Day - 24 15-01-18/blog/admin/add-category.php</url>
+          <line>7</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day - 20 06-01-18/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="33" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="16" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day - 20 06-01-18/view-student.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/homework/homework/view.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -457,12 +492,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <marker date="1515251319551" expanded="true" signature="203:254" ph="INSERT INTO students... " />
-            <marker date="1515251319551" expanded="true" signature="203:270" ph="INSERT INTO students... " />
-            <marker date="1515251319551" expanded="true" signature="203:286" ph="INSERT INTO students... " />
-            <marker date="1515251319551" expanded="true" signature="203:301" ph="INSERT INTO students... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -470,7 +499,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="14" column="33" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="16" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -478,7 +506,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -486,7 +513,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -494,12 +520,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <marker date="1515251319551" expanded="true" signature="203:254" ph="INSERT INTO students... " />
-            <marker date="1515251319551" expanded="true" signature="203:270" ph="INSERT INTO students... " />
-            <marker date="1515251319551" expanded="true" signature="203:286" ph="INSERT INTO students... " />
-            <marker date="1515251319551" expanded="true" signature="203:301" ph="INSERT INTO students... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -507,7 +527,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="14" column="33" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="16" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -515,7 +534,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -523,7 +541,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -531,12 +548,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <marker date="1515251319551" expanded="true" signature="203:254" ph="INSERT INTO students... " />
-            <marker date="1515251319551" expanded="true" signature="203:270" ph="INSERT INTO students... " />
-            <marker date="1515251319551" expanded="true" signature="203:286" ph="INSERT INTO students... " />
-            <marker date="1515251319551" expanded="true" signature="203:301" ph="INSERT INTO students... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -550,7 +561,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="14" column="33" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="16" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -558,23 +568,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day - 22 10-1-18/view-product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Day - 22 10-1-18/view-product.php" />
     <entry file="file://$USER_HOME$/Downloads/homework/homework/view.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -582,75 +583,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <marker date="1515251319551" expanded="true" signature="203:254" ph="INSERT INTO students... " />
-            <marker date="1515251319551" expanded="true" signature="203:270" ph="INSERT INTO students... " />
-            <marker date="1515251319551" expanded="true" signature="203:286" ph="INSERT INTO students... " />
-            <marker date="1515251319551" expanded="true" signature="203:301" ph="INSERT INTO students... " />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day - 22 10-1-18/blog/admin/dashboard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day - 22 10-1-18/blog/admin/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day - 22 10-1-18/blog/app/classes/Database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Day - 22 10-1-18/blog/admin/dashboard.php" />
+    <entry file="file://$PROJECT_DIR$/Day - 22 10-1-18/blog/admin/index.php" />
+    <entry file="file://$PROJECT_DIR$/Day - 22 10-1-18/blog/app/classes/Database.php" />
     <entry file="file://$PROJECT_DIR$/Day - 23 13-01-18/blog/app/classes/Database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day - 22 10-1-18/blog/app/classes/Login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-          <folding>
-            <marker date="1515846026131" expanded="true" signature="203:272" ph="SELECT * FRO... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day - 23 13-01-18/session.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day - 23 13-01-18/blog/app/classes/Login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="33" column="29" lean-forward="false" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
-          <folding>
-            <marker date="1515852394816" expanded="true" signature="208:277" ph="SELECT * FRO... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Day - 22 10-1-18/blog/app/classes/Login.php" />
     <entry file="file://$PROJECT_DIR$/Day - 23 13-01-18/blog/admin/includes/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -659,28 +605,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day - 23 13-01-18/blog/admin/index.php">
+    <entry file="file://$PROJECT_DIR$/Day - 23 13-01-18/blog/admin/dashboard.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="54" column="14" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="54" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="100">
+          <caret line="4" column="20" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day - 23 13-01-18/blog/admin/add-category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="24" column="71" lean-forward="false" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day - 23 13-01-18/blog/admin/includes/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="54" column="55" lean-forward="true" selection-start-line="54" selection-start-column="55" selection-end-line="54" selection-end-column="67" />
+        <state relative-caret-position="499">
+          <caret line="54" column="55" lean-forward="false" selection-start-line="54" selection-start-column="55" selection-end-line="54" selection-end-column="67" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day - 23 13-01-18/blog/admin/dashboard.php">
+    <entry file="file://$PROJECT_DIR$/Day - 23 13-01-18/blog/admin/manage-blog.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="20" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="400">
+          <caret line="16" column="48" lean-forward="false" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
           <folding />
         </state>
       </provider>
@@ -688,39 +640,186 @@
     <entry file="file://$PROJECT_DIR$/Day - 23 13-01-18/blog/admin/manage-category.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="4" column="11" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <caret line="4" column="11" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day - 23 13-01-18/blog/app/classes/Login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="33" column="29" lean-forward="false" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <marker date="1515852394816" expanded="true" signature="208:277" ph="SELECT * FRO... users" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day - 23 13-01-18/blog/admin/manage-blog.php">
+    <entry file="file://$PROJECT_DIR$/Day - 23 13-01-18/session.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="16" column="48" lean-forward="false" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day - 23 13-01-18/blog/admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="54" column="14" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="54" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day-24/day-23/blog/admin/add-blog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day-24/blog/admin/add-blog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="19" column="42" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day - 23 13-01-18/blog/admin/add-blog.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="11" column="77" lean-forward="false" selection-start-line="11" selection-start-column="77" selection-end-line="11" selection-end-column="77" />
+        <state relative-caret-position="150">
+          <caret line="6" column="34" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day - 24 15-01-18/blog/admin/includes/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="21" lean-forward="false" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day - 24 15-01-18/blog/admin/dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day - 24 15-01-18/blog/admin/manage-category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="659">
+          <caret line="66" column="134" lean-forward="false" selection-start-line="66" selection-start-column="134" selection-end-line="66" selection-end-column="134" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <marker date="1516026067035" expanded="true" signature="2158:2482" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day - 23 13-01-18/blog/admin/add-category.php">
+    <entry file="file://$PROJECT_DIR$/Day - 21 08-01-18/view-student.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="24" column="71" lean-forward="false" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
+        <state relative-caret-position="199">
+          <caret line="57" column="124" lean-forward="false" selection-start-line="57" selection-start-column="66" selection-end-line="57" selection-end-column="124" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day - 24 15-01-18/blog/admin/edit-category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="39" column="51" lean-forward="false" selection-start-line="39" selection-start-column="51" selection-end-line="39" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day - 21 08-01-18/edit-student.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-526">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day - 21 08-01-18/app/classes/Student.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="62" column="8" lean-forward="false" selection-start-line="62" selection-start-column="8" selection-end-line="66" selection-end-column="9" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <marker date="1515424095459" expanded="true" signature="203:301" ph="INSERT INTO students... " />
+            <marker date="1515424095459" expanded="true" signature="659:681" ph="SELECT * FRO... students" />
+            <marker date="1515424095459" expanded="true" signature="1119:1158" ph="SELECT * FRO... students" />
+            <marker date="1515424095459" expanded="true" signature="1665:1776" ph="UPDATE stude... " />
+            <marker date="1515424095459" expanded="true" signature="2245:2282" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day - 24 15-01-18/blog/app/classes/Login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="72" />
+          <folding>
+            <marker date="1515852394816" expanded="true" signature="208:277" ph="SELECT * FRO... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day - 24 15-01-18/blog/app/classes/Database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day - 24 15-01-18/blog/app/classes/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="15" selection-end-column="9" />
+          <folding>
+            <marker date="1516029396804" expanded="true" signature="129:218" ph="INSERT INTO categories... " />
+            <marker date="1516029396804" expanded="true" signature="129:242" ph="INSERT INTO categories... " />
+            <marker date="1516029396804" expanded="true" signature="129:300" ph="INSERT INTO categories... " />
+            <marker date="1516029396804" expanded="true" signature="625:649" ph="SELECT * FRO... categories" />
+            <marker date="1516029396804" expanded="true" signature="1006:1042" ph="SELECT * FRO... categories" />
+            <marker date="1516029396804" expanded="true" signature="1006:1043" ph="SELECT * FRO... categories" />
+            <marker date="1516029396804" expanded="true" signature="1367:1542" ph="UPDATE categ... " />
+            <marker date="1516029396804" expanded="true" signature="1367:1552" ph="UPDATE categ... " />
+            <marker date="1516029396804" expanded="true" signature="1840:1879" ph="DELETE FROM " />
+            <marker date="1516029396804" expanded="true" signature="2128:2181" ph="SELECT * FRO... categories" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day - 24 15-01-18/blog/admin/add-category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="30" column="63" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day - 24 15-01-18/blog/app/classes/Blog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <marker date="1516030590992" expanded="true" signature="125:363" ph="INSERT INTO blogs... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day - 24 15-01-18/blog/admin/add-blog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+          <folding>
+            <element signature="e#45#70#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
